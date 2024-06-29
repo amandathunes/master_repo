@@ -1,0 +1,31 @@
+Data recorded at University of Oslo for the Teflon project
+Document started on 2022-10-13 and maintained by <giampiero.salvi@ntnu.no>
+
+The data is organized in the following directories:
+- speech: wave files with recordings of isolated words. Sampled at 44.1kHz.
+- speech16khz: same files as in speech/ but downsampled to 16kHz with the commands:
+  cd speech
+  find -name "*.wav" -exec sox {} ../speech16khz/{} rate 16000 \;
+- assessments: pronunciation assessment stored in one excel file for each word.
+         The assessments contain a global 5 level scale, a score for each phoneme,
+	 and a number of extra columns on different kinds of noises.
+- assessments.csv: the information from the excel files has been collected into a
+         single csv file with the help of the scripts at
+	 https://github.com/giampierosalvi/TeflonNorwegianDataset
+	 The csv file contains a row for each wave file and each assessment. The
+	 description of each column can be found at the github repository.
+
+The audio file names contain information about the speaker id and the spoken word:
+
+<speaker_id>_<word>.wav
+
+The speaker_id contains a letter and two digits, the letters indicate:
+a: non-native speaker of Norwegian
+d, p: native speaker of Norwegian
+The digits are incremental for each speaker.
+
+Check the file
+assessments/read_me_excel_assessments.txt
+for more information about the assessments.
+
+

@@ -1,0 +1,25 @@
+File name,OG word,idx,Model
+d08_enhjoerning.wav,enhjørning,396,nb-whisper-medium
+d09_rund.wav,rund,565,nb-whisper-medium
+d09_ugle.wav,ugle,1065,nb-whisper-medium
+d09_oern.wav,ørn,1465,nb-whisper-medium
+a11_skinke.wav,skinke,1659,nb-whisper-medium
+a13_oere.wav,øre,1827,nb-whisper-medium
+a11_hjerte.wav,hjerte,2550,nb-whisper-medium
+a11_trapp.wav,trapp,3205,nb-whisper-medium
+d09_trapp.wav,trapp,3223,nb-whisper-medium
+d09_froe.wav,frø,3923,nb-whisper-medium
+d09_krakk.wav,krakk,3941,nb-whisper-medium
+d13_krakk.wav,krakk,3978,nb-whisper-medium
+a11_turn.wav,turn,4406,nb-whisper-medium
+d09_pluss.wav,pluss,4578,nb-whisper-medium
+d11_gutt.wav,gutt,4654,nb-whisper-medium
+a11_gartner.wav,gartner,4903,nb-whisper-medium
+d09_by.wav,by,5504,nb-whisper-medium
+d09_skip.wav,skip,6194,nb-whisper-medium
+a11_start.wav,start,6549,nb-whisper-medium
+d09_klo.wav,klo,7182,nb-whisper-medium
+a11_pute.wav,pute,7279,nb-whisper-medium
+a12_erter.wav,erter,8249,nb-whisper-medium
+a11_graa.wav,grå,8518,nb-whisper-medium
+a11_frakk.wav,frakk,8946,nb-whisper-medium

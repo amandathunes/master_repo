@@ -1,0 +1,41 @@
+The folder «Word Assesments - Excel files» contains 
+	this file
+	one file «who_did_what»
+	an .xslx file for each of the different words that have been assesses.
+
+
+The file «who_did_what» describes which assessor/person assessed which word like this:
+	- Column 1 «Both»: Words were assessed by both assessors, individually
+	- Column 2 «Together»: Words were assessed by both assessors, together
+	- Column 3 «Anne Marte»: Words were assessed by only assessor Anne Marte
+	- Column 4 «Jeanett»: Words were assessed by assessor Jeanett
+
+The excel-files for the different words contain two sheets when the word has been assessed by both. Sheet 1 named "Anne Marte" assessed 
+by Anne Marte, and Sheet 2 named "Jeanett" assessed by Jeanett.
+The files for the different words contain only one sheet when the word has been assessed by only one assessor.
+
+
+The excel-files for the different words contains these columns:
+	1 «File name»: The name of the .wav file on the form «ParticipantCode_Word.wav»
+	2 «Score»: The score (0 - 5) given the speech sample in that .wav file (see scoring criteria below)
+	3-n: Phonetic transcription (SAMPA). One column per phone. 1 = Correct, 0 = Mispronunciation, - = sound is "legally" missing (the sound is optional in Norwegian).
+	n+1 «Prosody»: If 1 there is something wrong with the prosody (here defined as intonation/tone/stress/rythm) in that speech sample. If blank there is no mistake in prosody.
+	n+2 «Noise/Disruption»: If 1 there is noise in the recoding. Including both background noise and noise/clipping from equipment error etc. If blank there is no noise/disruption.
+	n+3 «Pre-speech noise»:  If 1 you can hear the model speaker at the beginning of the clip before the child starts talking. If blank there is no model speaker in the beginning.
+	n+4 «Repetition: If 1 the child attempts more than once at saying the word. It is the final attempt that have been assessed. If blank the word is only said once.
+
+
+For most words there are 52 participants saying the words. Participant codes starting with «a» have no or short exposure to Norwegian, and 
+participant codes starting with «d» are native Norwegian speakers.
+Some of the words have 20 participants saying the word.
+
+
+The scores are given from these criteria:
+	1: Attempt with no resemblance to target word/interrupted speech (with 2+ sounds missing)/ impossible to locate specific segmental errors.
+	2: Mumbled attempt/ two or more major mispronunciations (phonetic/prosodic).
+	3: One major mispronunciation/ two minor mispronunciations (phonetic/prosodic). E.g. one phone that is wrong, i.e., 
+		becomes a different Norwegian phoneme/two sounds that are "off"/ suprasegmental error/tone error + mispronunciation of phone.
+	4: Only minor mispronunciation (phonetic/prosodic). E.g. one sound that is "off", but not so much that it becomes a 
+		different Norwegian phone and/or (minor) suprasegmental error (even if that makes it another word (bønder/bønner)).
+	5: Native/native-like. No mistakes
+

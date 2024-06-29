@@ -1,0 +1,50 @@
+,Input length,Translated length,Word Match,Unique input words,Unique translated words,Input words,Translated words,ID
+0,10,6,,['hylle'],['hylle'],"['hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle'
+ 'hylle']","['hylle', 'hylle', 'hylle', 'hylle', 'hylle', 'hylle']","['a12', 'a33', 'd18', 'a14', 'd12', 'd06', 'a32', 'd01', 'd15', 'a20']"
+1,10,8,,['hylle'],['hylle'],"['hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle' 'hylle'
+ 'hylle']","['hylle', 'hylle', 'hylle', 'hylle', 'hylle', 'hylle', 'hylle', 'hylle']","['a18', 'a31', 'd16', 'a16', 'd09', 'a23', 'd10', 'd17', 'd05', 'd11']"
+2,10,15,,['artist'],['artist'],"['artist' 'artist' 'artist' 'artist' 'artist' 'artist' 'artist' 'artist'
+ 'artist' 'artist']","['artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist']","['d15', 'a16', 'd18', 'd04', 'a29', 'd06', 'a19', 'd03', 'd12', 'd11']"
+3,10,8,,['artist' 'kart'],['artist'],"['artist' 'artist' 'artist' 'artist' 'artist' 'artist' 'artist' 'artist'
+ 'artist' 'kart']","['artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist', 'artist']","['a25', 'd14', 'd08', 'a17', 'd05', 'a10', 'd13', 'd16', 'd07', 'd14']"
+4,10,9,,['kart'],['kart'],['kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'kart'],"['kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart']","['d15', 'a20', 'd03', 'd02', 'a19', 'd04', 'd05', 'd13', 'd19', 'd18']"
+5,10,11,,['kart' 'syr'],['kart'],['kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'kart' 'syr' 'syr'],"['kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart', 'kart']","['a16', 'a22', 'd01', 'd17', 'd16', 'a33', 'd07', 'd06', 'a23', 'a17']"
+6,10,10,"[1, 1, 1, 1, 1, 1, 0, 1, 1, 1]",['syr' 'jern'],"['syr', 'jern']",['syr' 'syr' 'syr' 'syr' 'syr' 'syr' 'jern' 'jern' 'jern' 'jern'],"['syr', 'syr', 'syr', 'syr', 'syr', 'syr', 'syr', 'jern', 'jern', 'jern']","['a31', 'a21', 'a20', 'a16', 'a19', 'a27', 'd04', 'a19', 'd18', 'a08']"
+7,10,12,,['jern'],['bjørn'],['jern' 'jern' 'jern' 'jern' 'jern' 'jern' 'jern' 'jern' 'jern' 'jern'],"['bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn', 'bjørn']","['d15', 'd14', 'a14', 'd03', 'a21', 'd11', 'd10', 'a33', 'd06', 'd07']"
+8,10,15,,['jern' 'lytte'],"['jern', 'lytte']","['jern' 'jern' 'jern' 'jern' 'lytte' 'lytte' 'lytte' 'lytte' 'lytte'
+ 'lytte']","['jern', 'jern', 'jern', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte']","['d01', 'a16', 'd16', 'd17', 'd09', 'd10', 'd16', 'd02', 'd08', 'd05']"
+9,10,12,,['lytte' 'barn'],"['lytte', 'barn']","['lytte' 'lytte' 'lytte' 'lytte' 'lytte' 'lytte' 'lytte' 'barn' 'barn'
+ 'barn']","['lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'lytte', 'barn', 'barn']","['d17', 'd12', 'a33', 'd18', 'd13', 'd01', 'd15', 'd15', 'd03', 'a14']"
+10,10,10,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",['barn'],['barn'],['barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'barn'],"['barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn']","['a15', 'd09', 'd04', 'd05', 'a19', 'd12', 'a31', 'a17', 'a16', 'a29']"
+11,10,13,,['barn' 'lun'],['barn'],['barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'barn' 'lun' 'lun'],"['barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn', 'barn']","['d01', 'd17', 'd16', 'd10', 'd11', 'a33', 'a10', 'd07', 'a18', 'a16']"
+12,10,7,,['lun' 'enhjørning'],"['lun', 'enhjørning']","['lun' 'lun' 'lun' 'enhjørning' 'enhjørning' 'enhjørning' 'enhjørning'
+ 'enhjørning' 'enhjørning' 'enhjørning']","['lun', 'lun', 'enhjørning', 'enhjørning', 'enhjørning', 'enhjørning', 'enhjørning']","['a31', 'a15', 'a22', 'd02', 'd14', 'd13', 'd05', 'a20', 'd12', 'd04']"
+13,10,8,,['enhjørning'],['enhjørning'],"['enhjørning' 'enhjørning' 'enhjørning' 'enhjørning' 'enhjørning'
+ 'enhjørning' 'enhjørning' 'enhjørning' 'enhjørning' 'enhjørning']","['enhjørning', 'enhjørning', 'enhjørning', 'enhjørning', 'enhjørning', 'enhjørning', 'enhjørning', 'enhjørning']","['a31', 'd15', 'd10', 'd06', 'a33', 'd01', 'd19', 'a16', 'd11', 'd18']"
+14,10,9,,['glass'],['glass'],"['glass' 'glass' 'glass' 'glass' 'glass' 'glass' 'glass' 'glass' 'glass'
+ 'glass']","['glass', 'glass', 'glass', 'glass', 'glass', 'glass', 'glass', 'glass', 'glass']","['a29', 'd03', 'd05', 'a31', 'a25', 'd02', 'd10', 'd04', 'd01', 'd19']"
+15,10,9,,['glass' 'bra'],['glass'],"['glass' 'glass' 'glass' 'glass' 'glass' 'glass' 'glass' 'glass' 'glass'
+ 'bra']","['glass', 'glass', 'glass', 'glass', 'glass', 'glass', 'glass', 'glass', 'glass']","['a15', 'd07', 'd13', 'a18', 'a33', 'd18', 'a14', 'd12', 'd06', 'a27']"
+16,10,8,,['bra' 'syl' 'løpe'],['bra'],['bra' 'bra' 'bra' 'bra' 'bra' 'bra' 'syl' 'syl' 'syl' 'løpe'],"['bra', 'bra', 'bra', 'bra', 'bra', 'bra', 'bra', 'bra']","['a18', 'a14', 'a31', 'a17', 'a16', 'a30', 'a18', 'a17', 'a33', 'd17']"
+17,10,10,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",['løpe'],['løpe'],['løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe'],"['løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe']","['d05', 'd11', 'd16', 'd02', 'd10', 'd04', 'd09', 'd18', 'a18', 'd07']"
+18,10,9,,['løpe' 'rund'],['løpe'],['løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'løpe' 'rund' 'rund' 'rund'],"['løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe', 'løpe']","['d13', 'a01', 'a20', 'a34', 'a33', 'd12', 'd06', 'd17', 'd16', 'a22']"
+19,10,21,,['rund'],['run'],['rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund'],"['run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run', 'run']","['d01', 'a16', 'd07', 'a32', 'd10', 'd11', 'd08', 'a14', 'd03', 'd02']"
+20,10,23,,['rund'],['rund'],['rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund' 'rund'],"['rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund', 'rund']","['d15', 'a08', 'a05', 'a30', 'a31', 'd13', 'a27', 'd18', 'a19', 'd04']"
+21,10,10,"[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",['bror'],['bror'],['bror' 'bror' 'bror' 'bror' 'bror' 'bror' 'bror' 'bror' 'bror' 'bror'],"['bror', 'bror', 'bror', 'bror', 'bror', 'bror', 'bror', 'bror', 'bror', 'bror']","['a23', 'd01', 'a16', 'd16', 'a32', 'd07', 'd08', 'd02', 'd05', 'a18']"
+22,10,18,,['bror' 'kvern'],"['bror', 'kvern', 'kan', 'vi', 'ta', 'pause']","['bror' 'bror' 'kvern' 'kvern' 'kvern' 'kvern' 'kvern' 'kvern' 'kvern'
+ 'kvern']","['bror', 'bror', 'kvern', 'kvern', 'kvern', 'kan', 'vi', 'ta', 'pause', 'kvern', 'kvern', 'kvern', 'kvern', 'kvern', 'kvern', 'kvern', 'kvern', 'kvern']","['a31', 'd13', 'a31', 'd16', 'd02', 'a28', 'd10', 'd04', 'd01', 'a18']"
+23,10,9,,['kvern' 'huske'],"['kvern', 'huske']","['kvern' 'kvern' 'kvern' 'huske' 'huske' 'huske' 'huske' 'huske' 'huske'
+ 'huske']","['kvern', 'kvern', 'huske', 'huske', 'huske', 'huske', 'huske', 'huske', 'huske']","['d18', 'd14', 'd12', 'd01', 'd15', 'd18', 'd07', 'd14', 'a06', 'a33']"
+24,10,8,,['huske'],['huske'],"['huske' 'huske' 'huske' 'huske' 'huske' 'huske' 'huske' 'huske' 'huske'
+ 'huske']","['huske', 'huske', 'huske', 'huske', 'huske', 'huske', 'huske', 'huske']","['d12', 'd06', 'd17', 'd11', 'a22', 'd16', 'd02', 'a31', 'd04', 'a16']"
+25,10,13,,['tær' 'sykkel'],"['i', 'tær', 'sykkel']",['tær' 'tær' 'tær' 'tær' 'tær' 'tær' 'tær' 'sykkel' 'sykkel' 'sykkel'],"['i', 'tær', 'tær', 'tær', 'tær', 'tær', 'tær', 'tær', 'tær', 'sykkel', 'sykkel', 'sykkel', 'sykkel']","['a20', 'a31', 'a30', 'a16', 'a17', 'a22', 'a33', 'd07', 'a33', 'a15']"
+26,10,16,,['sykkel'],"['sikkel', 'sykkel']","['sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel'
+ 'sykkel' 'sykkel']","['sikkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel']","['a27', 'd13', 'd02', 'a31', 'd05', 'a17', 'd11', 'a34', 'a26', 'd12']"
+27,10,16,,['sykkel'],['sykkel'],"['sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel' 'sykkel'
+ 'sykkel' 'sykkel']","['sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel', 'sykkel']","['d03', 'a19', 'd06', 'd19', 'd17', 'd10', 'd18', 'd01', 'a30', 'd04']"
+28,10,16,,['sykkel' 'koffert'],"['sykkel', 'koffert']","['sykkel' 'sykkel' 'sykkel' 'koffert' 'koffert' 'koffert' 'koffert'
+ 'koffert' 'koffert' 'koffert']","['sykkel', 'sykkel', 'sykkel', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert']","['d15', 'd09', 'a16', 'd06', 'd16', 'd03', 'a20', 'a29', 'd15', 'd10']"
+29,10,16,,['koffert'],['koffert'],"['koffert' 'koffert' 'koffert' 'koffert' 'koffert' 'koffert' 'koffert'
+ 'koffert' 'koffert' 'koffert']","['koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert', 'koffert']","['a17', 'a22', 'd02', 'a19', 'd07', 'a16', 'd18', 'd11', 'a31', 'd01']"
+30,10,18,,['tralle'],['tralle'],"['tralle' 'tralle' 'tralle' 'tralle' 'tralle' 'tralle' 'tralle' 'tralle'
+ 'tralle' 'tralle']","['tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle', 'tralle']","['d05', 'a20', 'd11', 'a28', 'a33', 'a04', 'd07', 'd13', 'd02', 'd10']"
