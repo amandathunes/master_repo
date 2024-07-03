@@ -187,6 +187,10 @@ def transcribe_and_show_one_word(wn:int, df:pd.DataFrame, model_names:list, wv_p
 # It saves all the results to a .csv file with version number, 
 # and all empty transcriptions are also saved in correspåonding verson .csv file
 def transcribe_all_audio(model_name:str, empty_path:str, data_path:str,
+    # # # # # # # # # # # # # # # # # ## # # # # # # # ## # # # # # # # # # # # # 
+    # --------------------------------- Problem ------------------------------- #
+    # Some of the files that are not transcribed are also not in the empty file #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #                    
                         df:pd.DataFrame, save: bool = False, 
                         directory:str = './Transcriptions/', highest_score_data_frame:bool = True):
     # # # # # # # # #
